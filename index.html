@@ -1,0 +1,372 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>BATALLA DE PUEBLA</title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema-app10.min.css"/>
+<link rel="stylesheet"href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet"href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js"></script>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/Vista aerea mapa.png','imagenes/Iztaccihuatl.jpg','imagenes/Flores1.jpg','imagenes/Chile en Nogada.jpg','imagenes/Parque Ayoa.jpg','imagenes/Tapete Monumental.jpg','imagenes/Calles1.jpg')">
+<div data-role="page" id="Principal" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h2>¿POR QUE VISITAR ATLIXCO?</h2></div>
+<div>
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/atlixco_pueblo_magico.png" alt="Atlixco Pueblo Magico" title="Atlixco Pueblo Magico" id="wows1_0"/></li>
+		<li><img src="data1/images/chile_en_nogada.jpg" alt="Chile en Nogada" title="Chile en Nogada" id="wows1_1"/></li>
+		<li><img src="data1/images/popocatepetl.png" alt="Popocatepetl" title="Popocatepetl" id="wows1_2"/></li>
+		<li><img src="data1/images/tapete_monumental.jpg" alt="Tapete Monumental" title="Tapete Monumental" id="wows1_3"/></li>
+		<li><img src="data1/images/vestimenta_tradicional.jpg" alt="Vestimenta Tradicional" title="Vestimenta Tradicional" id="wows1_4"/></li>
+		<li><img src="data1/images/voladores_de_papantla.jpg" alt="Voladores de Papantla" title="Voladores de Papantla" id="wows1_5"/></li>
+		<li><img src="data1/images/enchiladas.jpg" alt="Enchiladas" title="Enchiladas" id="wows1_6"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/helados_de_nogada.jpg" alt="http://wowslider.net/" title="Helados de Nogada" id="wows1_7"/></a></li>
+		<li><img src="data1/images/parque_ayoa.jpg" alt="Parque Ayoa" title="Parque Ayoa" id="wows1_8"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="Atlixco Pueblo Magico"><span><img src="data1/tooltips/atlixco_pueblo_magico.png" alt="Atlixco Pueblo Magico"/>1</span></a>
+		<a href="#" title="Chile en Nogada"><span><img src="data1/tooltips/chile_en_nogada.jpg" alt="Chile en Nogada"/>2</span></a>
+		<a href="#" title="Popocatepetl"><span><img src="data1/tooltips/popocatepetl.png" alt="Popocatepetl"/>3</span></a>
+		<a href="#" title="Tapete Monumental"><span><img src="data1/tooltips/tapete_monumental.jpg" alt="Tapete Monumental"/>4</span></a>
+		<a href="#" title="Vestimenta Tradicional"><span><img src="data1/tooltips/vestimenta_tradicional.jpg" alt="Vestimenta Tradicional"/>5</span></a>
+		<a href="#" title="Voladores de Papantla"><span><img src="data1/tooltips/voladores_de_papantla.jpg" alt="Voladores de Papantla"/>6</span></a>
+		<a href="#" title="Enchiladas"><span><img src="data1/tooltips/enchiladas.jpg" alt="Enchiladas"/>7</span></a>
+		<a href="#" title="Helados de Nogada"><span><img src="data1/tooltips/helados_de_nogada.jpg" alt="Helados de Nogada"/>8</span></a>
+		<a href="#" title="Parque Ayoa"><span><img src="data1/tooltips/parque_ayoa.jpg" alt="Parque Ayoa"/>9</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+<li class="ui-first-child ui-last-child">
+  <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>LAS DISTANCIAS</h2>
+  <p>Pulse para más información...</p>
+  </a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>LOS PAISAJES</h2>
+<p>Pulse para más información...</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>LAS FLORES</h2>
+<p>Pulse para más información...</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>LA COMIDA</h2>
+<p>Pulse para más información...</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>LOS VALNEAREOS</h2>
+<p>Pulse para más información...</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>EL PATRIMONIO</h2>
+<p>Pulse para más información...</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>LAS CALLES</h2>
+<p>Pulse para más información...</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>TRADICIONES</h2>
+<p>Pulse para más información...</p>
+</a>
+</li>
+</ul>
+</div>
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+<div> 
+<img src="imagenes/Atlixco Pueblo Magico.png" width="92" height="92">
+<h4> Fernando Muñoz Herrada </h4>
+</div>
+</div>
+</div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>DISTANCIA</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>Es conocido por su buen clima y la gran actividad florística, comercial y turística que le valieron haber sido llamada Atlixco de las Flores y Granero de la Nueva España, durante la época colonial.</h2>
+<p>
+<h2>Si vienes desde cualquier ciudad grande con mucho trafico y distancias grandes, este destino es maravilloso para tí, ya que toma maximo 20 minutos ir a cualquier parte en carro  desde el zócalo.</h2>
+</div>
+</div>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Vista Aerea</h1>
+<div>
+<p>Atlixco</p>
+</div>
+<div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','imagenes/Vista aerea mapa.png',1)"><img src="imagenes/Vista aerea.png" width="300" height="130" id="Image2"></a></div>
+</div>
+
+<div data-role="footer" data-theme="b" data-position="fixed">
+<h4> Aplicacion Seis FMH </h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>PAISAJES</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+ <h3>&quot;Dicen, los que viven en este sitio y los que ya lo han visitado, que la vista hacia los volcanes Popocatépetl e Iztaccíhuatl es una de las más maravillosas que se puedan apreciar en México, ya que Atlixco se encuentra justo en las faldas del volcán Popocatépetl. Sólo por este hecho vale le pena asistir.&quot;</h3>
+<div data-role="collapsible" data-content-theme="false">
+<h2><strong>Vocánes</strong></h2>
+<div>
+  <p>Popocatépetl e Iztaccíhuatl</p></div>
+<div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','imagenes/Iztaccihuatl.jpg',1)"><img src="imagenes/Popocatepetl.png" width="280" height="150" id="Image3"></a></div>
+</div>
+</div>
+ </div>
+<div data-role="footer" data-therme=”a” data-position="fixed">
+<h4>Aplicacion Seis, FMH </h4>
+</div>
+</div>
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>FLORA</h1>
+</div>
+<div dala-role="content" align="center">
+<div>
+   <h2>&quot;En los famosos viveros de la colonia Cabrera, podrás encontrar una cantidad impresionante de plantas, flores y árboles peculiares como los bonsái. Atlixco es un lugar verde en el que se respira vida, lo que lo convierte en un sitio ideal para adquirir todo tipo de plantas para adornar tu departamento e incluso como un regalo que no puede fallar.&quot;</h2>
+   <div data-role="collapsible" data-content-theme="false">
+<h2><strong>Flores</strong></h2>
+<div>
+  <p>Se encuentran en la Colonia Cabrera</p></div>
+<div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','imagenes/Flores1.jpg',1)"><img src="imagenes/Flores.jpg" width="260" height="220" id="Image4"></a></div>
+</div>
+</div>
+</div>
+<div data-role="footer" data-therme=”a” data-position="fixed">
+<h4>Aplicacion Seis, FMH </h4>
+</div>
+</div>
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>GASTRONOMIA</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>Como en cualquier otro destino de México, la comida en Atlixco es deliciosa. Podrás encontrar platillos típicos de la región como chileatole, consomé, tamales de comino, cecina, trucha o hasta helados de nogada. Imagina estar comiendo alguno de estos platillos mientras contemplas a la distancia los impresionantes volcanes.</h2>
+</div>
+</div>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Comida</h1>
+<div>
+<p>Enchiladas y Pozole</p>
+</div>
+<div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','imagenes/Pozole.jpg',1)"><img src="imagenes/Enchiladas.jpg" width="260" height="220" id="Image5"></a></div>
+</div>
+
+<div data-role="footer" data-theme="b" data-position="fixed">
+<h4> Aplicacion Seis FMH </h4>
+</div>
+</div>
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>VALNEARIOS</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>Algo que le molesta a mucha gente es el calor, y Atlixco no se queda atras ya que cuena con varios valnearios para pasar un buen rato con tus amigos jugando o comiendo. Que rico a de ser descanzar mientras se disfruta de la exelente comida.</h2>
+</div>
+</div>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Valnearios</h1>
+<div>
+<p>Axocopan y parque Ayoa</p>
+</div>
+<div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','imagenes/Parque Ayoa.jpg',1)"><img src="imagenes/Axocopan.jpg" width="280" height="200" id="Image6"></a></div>
+</div>
+
+<div data-role="footer" data-theme="b" data-position="fixed">
+<h4> Aplicacion Seis FMH </h4>
+</div>
+</div>
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>PATRIMONIO</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>"Los lugares que no te puedes perder en Atlixco son: el exconvento del Carmen, la iglesia de la Merced, la capilla de la Tercera Orden y el convento de Santa Clara. Todos ellos son lugares con una rica historia, impresionante arquitectura y gran belleza visual que invitan a la contemplación. En el zócalo de la ciudad están situados cada uno de estos lugares, por lo que desplazarse a través de ellos es sencillo, rápido y divertido."</h2>
+</div>
+</div>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Zócalo</h1>
+<div>
+<p>´Mural del Zócalo y Tapete de Flores</p>
+</div>
+<div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','imagenes/Tapete Monumental.jpg',1)"><img src="imagenes/Culturalismo.jpg" width="320" height="164" id="Image7"></a></div>
+</div>
+
+<div data-role="footer" data-theme="b" data-position="fixed">
+<h4> Aplicacion Seis FMH </h4>
+</div>
+</div>
+<div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>CALLES</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>Un espectáculo colonial y multicolor te aguarda en cada calle, rincón y esquina de Atlixco. Caminar por sus calles es una delicia, una tarea que te dará mucho bienestar y relajación, que es lo que finalmente buscamos cuando salimos de vacaciones, ¿no crees?</h2>
+</div>
+</div>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Algunas Calles</h1>
+<div></div>
+<div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','imagenes/Calles1.jpg',1)"><img src="imagenes/Calles.jpg" width="189" height="258" id="Image8"></a></div>
+</div>
+
+<div data-role="footer" data-theme="b" data-position="fixed">
+<h4> Aplicacion Seis FMH </h4>
+</div>
+</div>
+<div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>TRADICIONES</h1>
+</div>
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/huey_atlixcayotl.jpg" alt="Huey Atlixcayotl" title="Huey Atlixcayotl" id="wows2_0"/></li>
+		<li><img src="data2/images/villa_iluminada.jpg" alt="Villa Iluminada" title="Villa Iluminada" id="wows2_1"/></li>
+		<li><img src="data2/images/tapete_monumental_de_flores.jpg" alt="Tapete Monumental de Flores" title="Tapete Monumental de Flores" id="wows2_2"/></li>
+		<li><img src="data2/images/fiesta_de_relles.jpg" alt="Fiesta de Relles" title="Fiesta de Relles" id="wows2_3"/></li>
+		<li><img src="data2/images/desfile_de_calaveras.jpg" alt="Desfile de Calaveras" title="Desfile de Calaveras" id="wows2_4"/></li>
+		<li><img src="data2/images/feria_de_la_noche_buena.jpg" alt="Feria de la Noche Buena" title="Feria de la Noche Buena" id="wows2_5"/></li>
+		<li><a href="http://wowslider.net"><img src="data2/images/feria_de_la_cecina.jpg" alt="jquery slider" title="Feria de la Cecina" id="wows2_6"/></a></li>
+		<li><img src="data2/images/atlixcayotontli.jpg" alt="Atlixcayotontli" title="Atlixcayotontli" id="wows2_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="Huey Atlixcayotl"><span><img src="data2/tooltips/huey_atlixcayotl.jpg" alt="Huey Atlixcayotl"/>1</span></a>
+		<a href="#" title="Villa Iluminada"><span><img src="data2/tooltips/villa_iluminada.jpg" alt="Villa Iluminada"/>2</span></a>
+		<a href="#" title="Tapete Monumental de Flores"><span><img src="data2/tooltips/tapete_monumental_de_flores.jpg" alt="Tapete Monumental de Flores"/>3</span></a>
+		<a href="#" title="Fiesta de Relles"><span><img src="data2/tooltips/fiesta_de_relles.jpg" alt="Fiesta de Relles"/>4</span></a>
+		<a href="#" title="Desfile de Calaveras"><span><img src="data2/tooltips/desfile_de_calaveras.jpg" alt="Desfile de Calaveras"/>5</span></a>
+		<a href="#" title="Feria de la Noche Buena"><span><img src="data2/tooltips/feria_de_la_noche_buena.jpg" alt="Feria de la Noche Buena"/>6</span></a>
+		<a href="#" title="Feria de la Cecina"><span><img src="data2/tooltips/feria_de_la_cecina.jpg" alt="Feria de la Cecina"/>7</span></a>
+		<a href="#" title="Atlixcayotontli"><span><img src="data2/tooltips/atlixcayotontli.jpg" alt="Atlixcayotontli"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+<div data-role="content" align="center">
+<div>
+<div style="width:80%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="b">
+<li class="ui-first-child ui-last-child">
+<a href="https://www.mexicodesconocido.com.mx/festival-huey-atlixcayotl-atlixco-puebla.html" target="_self" id="beep" data-role="button">
+<h2>Huey Atlixcáyotl</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="https://www.todopuebla.com/eventos/villailuminadaenatlixco" data-role="button" id="beep">
+<h2>Villa Iluminada</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="http://intoleranciadiario.com/detalle_noticia/83583/municipios/tapete-monumental-en-atlixco-un-atractivo-mas" data-role="button" id="beep">
+<h2>Tapetes Monumentales</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="http://intoleranciadiario.com/detalle_noticia/116083/municipios/un-exito-la-tradicional-fiesta-de-reyes-en-atlixco" data-role="button" id="beep">
+<h2>Fiestas de Reyes</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="http://turismoatlixco.com/desfile-de-calaveras/" data-role="button" id="beep">
+<h2>Desfile de Calaveras</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="http://turismoatlixco.com/feria-de-la-noche-buena/" data-role="button" id="beep">
+<h2>Feria de la Nochebuena</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="https://www.todopuebla.com/eventos/feriadelacecinaenatlixco" data-role="button" id="beep">
+<h2>Feria de la Cecina</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="http://turismoatlixco.com/atlixcayotontli/" data-role="button" id="vibrar">
+<h2>Atlixcayotontli</h2>
+</a> 
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div data-role="footer" data-theme="b" data-position="fixed">
+  <h4>Aplicacion Seis, FMH </h4>
+</div>
+
+
+</body>
+</html>
